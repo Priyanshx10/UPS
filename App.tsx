@@ -7,7 +7,7 @@ import RootNavigator from './navigator/RootNavigator';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://localhost:5000/api/ungaged-jellyfish',
+  uri: "https://courtsaintetienne.stepzen.net/api/ungaged-jellyfish/__graphql ",
   cache: new InMemoryCache(),
 });
 
